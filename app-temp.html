@@ -1,0 +1,10 @@
+<div>
+    <input type="text" ng-model='name'  placeholder="what yo name is">
+    <input type="button" ng-click='showInfo(name)' value="click for info">
+    <br>
+    <br>
+    <div ng-show='show'>Hello {{name}}
+        <br>
+        <br> the current times is {{time}}
+    </div>
+</div>
